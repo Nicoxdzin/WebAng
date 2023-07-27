@@ -1,0 +1,19 @@
+GET http://localhost:3000/servicos
+
+###
+
+POST http://localhost:3000/veiculos
+Content-Type: application/json
+
+{
+    "marca": "Ford",
+    "nomeVeiculo": "Mustang",
+    "ano": 2022,
+    "categoria": "Coupe"
+}
+
+###
+
+GET http://localhost:3000/servicos/64c10d249148c876008366f8
+###
+
